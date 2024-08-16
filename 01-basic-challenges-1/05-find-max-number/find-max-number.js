@@ -1,7 +1,8 @@
 function findMaxNumber(arr) {
-  let max = arr[0];
-  for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > max) {
+  let max = arr[0]; // set up to the first element 
+
+  for (let i = 1; i < arr.length; i++) {  //start the loop at the second element "i = 1" as long as i is less than the array
+    if (arr[i] > max) { // if the array at that index is greter than the max it will set max to that number
       max = arr[i];
     }
   }
